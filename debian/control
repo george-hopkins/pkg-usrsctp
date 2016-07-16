@@ -1,17 +1,20 @@
 Source: usrsctp
 Section: utils
 Priority: optional
-Maintainer: Kurento Maintenance Team <kurento@googlegroups.com>
-Build-Depends: debhelper (>= 9),
+Maintainer: George Hopkins <george-hopkins@null.net>
+Build-Depends:
+ debhelper (>= 9),
  dh-autoreconf
-Standards-Version: 3.9.4
+Standards-Version: 3.9.7
 
 Package: libusrsctp
+Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
-Description: sctp-refimpl library
+Description: SCTP userland stack
 
 Package: libusrsctp-dev
+Section: libdevel
 Architecture: any
-Depends: libusrsctp (= ${binary:Version}),
-Description: sctp-refimpl development files
+Depends: libusrsctp (= ${binary:Version})
+Description: SCTP userland stack (development files)
