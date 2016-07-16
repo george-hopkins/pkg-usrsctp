@@ -1,6 +1,5 @@
-libusrsctp (0.0.1~rc1) testing; urgency=medium
+usrsctp (0.20160716-1) UNRELEASED; urgency=medium
 
   * Initial release.
 
- -- Santiago Carot-Nemesio <sancane@gmail.com>  Mon, 9 Mar 2015 13:07:49 +0200
-
+ -- George Hopkins <george-hopkins@null.net>  Sat, 16 Jul 2016 23:15:14 +0200
