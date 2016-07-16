@@ -1,4 +1,4 @@
-Source: libusrsctp
+Source: usrsctp
 Section: utils
 Priority: optional
 Maintainer: Kurento Maintenance Team <kurento@googlegroups.com>
